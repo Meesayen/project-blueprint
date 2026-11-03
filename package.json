@@ -11,7 +11,10 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
+    "@meesayen/pure-tooltip": "^1.0.1",
     "fabric": "^7.4.0",
+    "uid": "^2.0.2",
+    "victor": "^1.1.0",
     "vue": "^3.5.44"
   },
   "devDependencies": {
@@ -25,10 +28,5 @@
     "vite": "catalog:",
     "vite-plus": "catalog:",
     "vue-tsc": "^3.3.13"
-  },
-  "pnpm": {
-    "ignoredBuiltDependencies": [
-      "canvas"
-    ]
   }
 }

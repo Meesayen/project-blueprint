@@ -18,6 +18,9 @@ dist-ssr
 .idea
 .DS_Store
 *.suo
+
+# npm
+.npmrc
 *.ntvs*
 *.njsproj
 *.sln
