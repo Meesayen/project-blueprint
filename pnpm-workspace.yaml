@@ -8,5 +8,5 @@ peerDependencyRules:
     - vite
   allowedVersions:
     vite: '*'
-ignoredBuiltDependencies:
-  - canvas
+allowBuilds:
+  canvas: false
