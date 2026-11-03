@@ -17,4 +17,5 @@ export default defineConfig({
     options: { typeAware: true, typeCheck: true },
   },
   plugins: lazyPlugins(() => [vue(), tailwindcss()]),
+  base: '/project-blueprint/',
 });
